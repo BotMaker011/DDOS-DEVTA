@@ -170,7 +170,7 @@ def handle_attack_command(message):
         if not user_data or user_data['plan'] == 0:
             bot.send_message(chat_id, "*🚫 JAA PHLE APPROVE HOKE AA APNE PAPA SE *\n"  # Access Denied message
                                        "*You need to be approved to use this bot.*\n"  # Need approval message
-                                       "*Contact the owner for assistance: @GOLEM_OWNER*", parse_mode='Markdown')  # Contact owner message
+                                       "*Contact the owner for assistance: @error_userrr*", parse_mode='Markdown')  # Contact owner message
             return
 
         # Check plan limits
